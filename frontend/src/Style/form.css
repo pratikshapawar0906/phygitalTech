@@ -1,0 +1,66 @@
+/* ---------- FORM STYLING ---------- */
+.form-container {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.form-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+input:focus,
+select:focus {
+  border-color: #2563eb;
+}
+
+.error {
+  color: #dc2626;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+/* ---------- FORM ACTIONS ---------- */
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* ---------- RECOMMENDATION BOX ---------- */
+.salary-recommendation {
+  background: #f0f7ff;
+  border-left: 4px solid #2563eb;
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-top: 6px;
+  color: #1e40af;
+}
